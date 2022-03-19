@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.main{
+    
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.upload{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 25px;
+    background-color: rgb(13, 21, 27);
+    margin: auto;
+}
+
+.img{
+display: flex;
+ background-color: rgb(174, 152, 184);
+ width: 50vw;
+ 
+}
+
+
+.side{
+    background-color: rgb(230, 230, 230);
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.settings{
+    height: 60vh;
+}
+.commands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width:15vw;
+    margin: 10px;
+}
+
+
+.editor{
+    padding: 25px;
+    width: 28vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.editor label{
+    font-size: 18px;
+    color: #2a292a;
+    font-weight: 400;
+}
+.editor input[type="range"]{
+  
+    display: block;
+    width: 15vw;
+    position: relative;
+    margin-top: 5px;
+}
+.flip-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.flip-buttons .flip-option{
+    margin-top: 10px;
+}
+.result{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.result img{
+    display: block;
+    position: relative;
+    max-width: calc(100% - 4vmin);
+    max-height: 45vmin;
+    margin: auto;
+    
+}
+.image-container{
+    display: none;
+}
+input[type="file"]{
+    display: none;
+}
+.result label{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 220px;
+    background-color: #025bee;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 0;
+    border-radius: 5px;
+    font-size: 2.8vmin;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
